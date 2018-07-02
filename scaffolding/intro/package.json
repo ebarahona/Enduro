@@ -1,14 +1,18 @@
 {
-	"name": "enduro_new_project",
-	"version": "1.0.0",
-	"description": "",
-	"main": "assets/vendor/enduro/index.js",
-	"scripts": {
-		"start": "node_modules/.bin/enduro start"
-	},
-	"author": "author goes here",
-	"license": "MIT",
-	"dependencies": {
-		"enduro": "*"
-	}
+  "name": "enduro_new_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "assets/vendor/enduro/index.js",
+  "scripts": {
+    "start": "node_modules/.bin/enduro start",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "author": "author goes here",
+  "license": "MIT",
+  "dependencies": {
+    "enduro": "*",
+    "snyk": "^1.88.0"
+  },
+  "snyk": true
 }

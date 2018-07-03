@@ -1,0 +1,18 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:lodash:20180130':
+    - browser-sync > easy-extender > lodash:
+        patched: '2018-07-03T08:27:40.741Z'
+    - gulp-define-module > lodash:
+        patched: '2018-07-03T08:27:40.741Z'
+    - gulp-iconfont-css > lodash:
+        patched: '2018-07-03T08:27:40.741Z'
+    - multi-glob > lodash:
+        patched: '2018-07-03T08:27:40.741Z'
+    - npm > cli-table2 > lodash:
+        patched: '2018-07-03T08:27:40.741Z'
+    - npm > npm-audit-report > cli-table2 > lodash:
+        patched: '2018-07-03T08:27:40.741Z'

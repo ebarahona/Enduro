@@ -1,0 +1,65 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - enduro > gulp-iconfont > plexer > debug:
+        patched: '2018-12-01T23:40:59.161Z'
+    - enduro > gulp-iconfont > gulp-spawn > plexer > debug:
+        patched: '2018-12-01T23:40:59.161Z'
+    - enduro > gulp-iconfont > gulp-svgicons2svgfont > svgicons2svgfont > debug:
+        patched: '2018-12-01T23:40:59.161Z'
+  'npm:handlebars:20151207':
+    - enduro > gulp-handlebars > handlebars:
+        patched: '2018-12-01T23:40:59.161Z'
+  'npm:hoek:20180212':
+    - enduro > gulp-less > less > request > hawk > hoek:
+        patched: '2018-12-01T23:40:59.161Z'
+    - enduro > gulp-less > less > request > hawk > boom > hoek:
+        patched: '2018-12-01T23:40:59.161Z'
+    - enduro > gulp-less > less > request > hawk > sntp > hoek:
+        patched: '2018-12-01T23:40:59.161Z'
+    - enduro > gulp-less > less > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-12-01T23:40:59.161Z'
+  'npm:lodash:20180130':
+    - enduro > gulp-define-module > lodash:
+        patched: '2018-12-01T23:40:59.161Z'
+    - enduro > gulp-iconfont-css > lodash:
+        patched: '2018-12-01T23:40:59.161Z'
+    - enduro > multi-glob > lodash:
+        patched: '2018-12-01T23:40:59.161Z'
+    - enduro > npm > cli-table2 > lodash:
+        patched: '2018-12-01T23:40:59.161Z'
+  'npm:mime:20170907':
+    - enduro > s3 > mime:
+        patched: '2018-12-01T23:40:59.161Z'
+  'npm:minimatch:20160620':
+    - enduro > gulp-sass-bulk-import > glob > minimatch:
+        patched: '2018-12-01T23:40:59.161Z'
+    - enduro > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2018-12-01T23:40:59.161Z'
+    - enduro > gulp-sass-bulk-import > vinyl-fs > glob-stream > minimatch:
+        patched: '2018-12-01T23:40:59.161Z'
+    - enduro > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2018-12-01T23:40:59.161Z'
+    - enduro > gulp-sass-bulk-import > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2018-12-01T23:40:59.161Z'
+    - enduro > gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2018-12-01T23:40:59.161Z'
+    - enduro > gulp-sass-bulk-import > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2018-12-01T23:40:59.161Z'
+    - enduro > gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2018-12-01T23:40:59.161Z'
+    - enduro > gulp-sass-bulk-import > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2018-12-01T23:40:59.161Z'
+  'npm:ms:20170412':
+    - enduro > gulp-iconfont > plexer > debug > ms:
+        patched: '2018-12-01T23:40:59.161Z'
+    - enduro > gulp-iconfont > gulp-spawn > plexer > debug > ms:
+        patched: '2018-12-01T23:40:59.161Z'
+    - enduro > gulp-iconfont > gulp-svgicons2svgfont > svgicons2svgfont > debug > ms:
+        patched: '2018-12-01T23:40:59.161Z'
+  'npm:uglify-js:20151024':
+    - enduro > gulp-handlebars > handlebars > uglify-js:
+        patched: '2018-12-01T23:40:59.161Z'

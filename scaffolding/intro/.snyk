@@ -1,0 +1,106 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - enduro > gulp-sass > node-sass > sass-graph > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > async > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > inquirer > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > gulp-wrap > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > babel-core > babel-register > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > gulp.spritesmith > async > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > browser-sync > easy-extender > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > rewire > babel-plugin-transform-es2015-block-scoping > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > rewire > babel-core > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > gulp-sass > node-sass > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > babel-core > babel-types > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > babel-core > babel-generator > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > babel-core > babel-template > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > request-promise > request-promise-core > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > babel-core > babel-traverse > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > rewire > babel-core > babel-types > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > gulp-iconfont > gulp-svg2ttf > svg2ttf > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > rewire > babel-plugin-transform-es2015-block-scoping > babel-types > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > rewire > babel-core > babel-generator > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > babel-core > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > rewire > babel-core > babel-register > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > rewire > babel-plugin-transform-es2015-block-scoping > babel-template > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > babel-core > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > rewire > babel-core > babel-template > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > rewire > babel-core > babel-traverse > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > babel-core > babel-template > babel-types > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > rewire > babel-plugin-transform-es2015-block-scoping > babel-traverse > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > rewire > babel-plugin-transform-es2015-block-scoping > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > rewire > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > rewire > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > rewire > babel-core > babel-generator > babel-types > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > rewire > babel-plugin-transform-es2015-block-scoping > babel-template > babel-types > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > rewire > babel-core > babel-template > babel-types > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > rewire > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > gulp-sass > node-sass > gaze > globule > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > rewire > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > gulp.spritesmith > spritesheet-templates > handlebars > async > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > rewire > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > rewire > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > rewire > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > rewire > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2019-07-04T04:36:34.289Z'
+    - enduro > rewire > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2019-07-04T04:36:34.289Z'

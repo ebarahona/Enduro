@@ -1,17 +1,21 @@
 {
-	"name": "enduro_scaffolding",
-	"version": "1.0.0",
-	"description": "",
-	"main": "assets/vendor/enduro/index.js",
-	"scripts": {
-		"start": "node_modules/.bin/enduro start"
-	},
-	"author": "author goes here",
-	"license": "ISC",
-	"dependencies": {
-		"enduro": "*"
-	},
-	"devDependencies": {
-		"babel-preset-es2015": "^1.7.7"
-	}
+  "name": "enduro_scaffolding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "assets/vendor/enduro/index.js",
+  "scripts": {
+    "start": "node_modules/.bin/enduro start",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "author": "author goes here",
+  "license": "ISC",
+  "dependencies": {
+    "enduro": "*",
+    "snyk": "^1.230.5"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^1.7.7"
+  },
+  "snyk": true
 }

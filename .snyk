@@ -1,0 +1,100 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - async > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - babel-core > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - gulp-wrap > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - inquirer > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - babel-core > babel-types > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - babel-core > babel-generator > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - rewire > babel-core > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - babel-core > babel-register > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - babel-core > babel-traverse > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - babel-core > babel-template > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - gulp.spritesmith > async > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - request-promise > request-promise-core > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - rewire > babel-plugin-transform-es2015-block-scoping > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - rewire > babel-core > babel-types > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - babel-core > babel-template > babel-types > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - rewire > babel-plugin-transform-es2015-block-scoping > babel-types > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - rewire > babel-core > babel-generator > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - rewire > babel-core > babel-register > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - rewire > babel-core > babel-traverse > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - rewire > babel-plugin-transform-es2015-block-scoping > babel-traverse > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - rewire > babel-core > babel-template > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - rewire > babel-plugin-transform-es2015-block-scoping > babel-template > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - gulp-iconfont > gulp-svg2ttf > svg2ttf > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - gulp-sass > node-sass > sass-graph > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - rewire > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - rewire > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - rewire > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - rewire > babel-plugin-transform-es2015-block-scoping > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - rewire > babel-plugin-transform-es2015-block-scoping > babel-template > babel-types > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - rewire > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - rewire > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - rewire > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - gulp-sass > node-sass > gaze > globule > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - rewire > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - rewire > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - rewire > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - rewire > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T04:06:59.991Z'
+    - rewire > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T04:06:59.991Z'

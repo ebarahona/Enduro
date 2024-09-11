@@ -1,0 +1,29 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - enduro > gulp-iconfont > gulp-svgicons2svgfont > svgicons2svgfont > debug:
+        patched: '2024-09-11T02:54:13.886Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          enduro > gulp-iconfont > gulp-svgicons2svgfont > svgicons2svgfont >
+          debug
+  'npm:handlebars:20151207':
+    - enduro > gulp-handlebars > handlebars:
+        patched: '2024-09-11T02:54:13.886Z'
+        id: 'npm:handlebars:20151207'
+        path: enduro > gulp-handlebars > handlebars
+  'npm:lodash:20180130':
+    - enduro > gulp-define-module > lodash:
+        patched: '2024-09-11T02:54:13.886Z'
+        id: 'npm:lodash:20180130'
+        path: enduro > gulp-define-module > lodash
+  'npm:ms:20170412':
+    - enduro > gulp-iconfont > gulp-svgicons2svgfont > svgicons2svgfont > debug > ms:
+        patched: '2024-09-11T02:54:13.886Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          enduro > gulp-iconfont > gulp-svgicons2svgfont > svgicons2svgfont >
+          debug > ms

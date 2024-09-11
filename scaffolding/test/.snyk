@@ -1,0 +1,10 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:lodash:20180130':
+    - enduro > gulp-iconfont-css > lodash:
+        patched: '2024-09-11T00:53:22.371Z'
+        id: 'npm:lodash:20180130'
+        path: enduro > gulp-iconfont-css > lodash

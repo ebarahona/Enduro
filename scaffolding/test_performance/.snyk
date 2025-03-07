@@ -1,0 +1,104 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - enduro > gulp-iconfont > gulp-svgicons2svgfont > svgicons2svgfont > debug:
+        patched: '2025-03-07T06:26:47.353Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          enduro > gulp-iconfont > gulp-svgicons2svgfont > svgicons2svgfont >
+          debug
+  'npm:handlebars:20151207':
+    - enduro > gulp-handlebars > handlebars:
+        patched: '2025-03-07T06:26:47.353Z'
+        id: 'npm:handlebars:20151207'
+        path: enduro > gulp-handlebars > handlebars
+  'npm:hoek:20180212':
+    - enduro > gulp-less > less > request > hawk > hoek:
+        patched: '2025-03-07T06:26:47.353Z'
+        id: 'npm:hoek:20180212'
+        path: enduro > gulp-less > less > request > hawk > hoek
+    - enduro > gulp-less > less > request > hawk > boom > hoek:
+        patched: '2025-03-07T06:26:47.353Z'
+        id: 'npm:hoek:20180212'
+        path: enduro > gulp-less > less > request > hawk > boom > hoek
+    - enduro > gulp-less > less > request > hawk > sntp > hoek:
+        patched: '2025-03-07T06:26:47.353Z'
+        id: 'npm:hoek:20180212'
+        path: enduro > gulp-less > less > request > hawk > sntp > hoek
+    - enduro > gulp-less > less > request > hawk > cryptiles > boom > hoek:
+        patched: '2025-03-07T06:26:47.353Z'
+        id: 'npm:hoek:20180212'
+        path: enduro > gulp-less > less > request > hawk > cryptiles > boom > hoek
+  'npm:lodash:20180130':
+    - enduro > gulp-define-module > lodash:
+        patched: '2025-03-07T06:26:47.353Z'
+        id: 'npm:lodash:20180130'
+        path: enduro > gulp-define-module > lodash
+    - enduro > gulp-iconfont-css > lodash:
+        patched: '2025-03-07T06:26:47.353Z'
+        id: 'npm:lodash:20180130'
+        path: enduro > gulp-iconfont-css > lodash
+    - enduro > npm > cli-table2 > lodash:
+        patched: '2025-03-07T06:26:47.353Z'
+        id: 'npm:lodash:20180130'
+        path: enduro > npm > cli-table2 > lodash
+  'npm:mime:20170907':
+    - enduro > s3 > mime:
+        patched: '2025-03-07T06:26:47.353Z'
+        id: 'npm:mime:20170907'
+        path: enduro > s3 > mime
+  'npm:minimatch:20160620':
+    - enduro > gulp-sass-bulk-import > glob > minimatch:
+        patched: '2025-03-07T06:26:47.353Z'
+        id: 'npm:minimatch:20160620'
+        path: enduro > gulp-sass-bulk-import > glob > minimatch
+    - enduro > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2025-03-07T06:26:47.353Z'
+        id: 'npm:minimatch:20160620'
+        path: enduro > gulp > vinyl-fs > glob-stream > minimatch
+    - enduro > gulp-sass-bulk-import > vinyl-fs > glob-stream > minimatch:
+        patched: '2025-03-07T06:26:47.353Z'
+        id: 'npm:minimatch:20160620'
+        path: enduro > gulp-sass-bulk-import > vinyl-fs > glob-stream > minimatch
+    - enduro > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2025-03-07T06:26:47.353Z'
+        id: 'npm:minimatch:20160620'
+        path: enduro > gulp > vinyl-fs > glob-stream > glob > minimatch
+    - enduro > gulp-sass-bulk-import > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2025-03-07T06:26:47.353Z'
+        id: 'npm:minimatch:20160620'
+        path: >-
+          enduro > gulp-sass-bulk-import > vinyl-fs > glob-stream > glob >
+          minimatch
+    - enduro > gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2025-03-07T06:26:47.353Z'
+        id: 'npm:minimatch:20160620'
+        path: enduro > gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch
+    - enduro > gulp-sass-bulk-import > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2025-03-07T06:26:47.353Z'
+        id: 'npm:minimatch:20160620'
+        path: >-
+          enduro > gulp-sass-bulk-import > vinyl-fs > glob-watcher > gaze >
+          globule > minimatch
+    - enduro > gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2025-03-07T06:26:47.353Z'
+        id: 'npm:minimatch:20160620'
+        path: >-
+          enduro > gulp > vinyl-fs > glob-watcher > gaze > globule > glob >
+          minimatch
+    - enduro > gulp-sass-bulk-import > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2025-03-07T06:26:47.353Z'
+        id: 'npm:minimatch:20160620'
+        path: >-
+          enduro > gulp-sass-bulk-import > vinyl-fs > glob-watcher > gaze >
+          globule > glob > minimatch
+  'npm:ms:20170412':
+    - enduro > gulp-iconfont > gulp-svgicons2svgfont > svgicons2svgfont > debug > ms:
+        patched: '2025-03-07T06:26:47.353Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          enduro > gulp-iconfont > gulp-svgicons2svgfont > svgicons2svgfont >
+          debug > ms
